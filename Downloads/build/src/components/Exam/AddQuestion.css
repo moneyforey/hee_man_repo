@@ -1,0 +1,33 @@
+.filelabel10 {
+    width: 80%;
+    height: 150px;
+    /* border: 1px dashed #1665c4; */
+    /* border-radius: 5px; */
+    display: block;
+    padding: 5px;
+    transition: border 300ms ease;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+}
+.filelabel10 i {
+    display: block;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.filelabel10 i,
+.filelabel10 .title {
+    padding-top: 15px;
+    margin-top: 100px;
+    color:#1665c4 ;
+    transition: 200ms color;
+}
+
+.filelabel10:hover i,
+.filelabel10:hover .title {
+  color: #1665c4;
+}
+#FileInput{
+    display:none;
+}
+    

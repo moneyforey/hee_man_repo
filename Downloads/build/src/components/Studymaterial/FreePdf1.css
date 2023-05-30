@@ -1,0 +1,24 @@
+
+.filelabel2 {
+    
+    height: 40px;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    background-color:#EDF7FF;
+}
+
+
+.filelabel2 .title2 {   
+    color:#2188E7;
+    transition: 200ms color;
+}
+
+.filelabel2:hover .title2 {
+  color: #2188E7;
+}
+#FileInput2{
+    display:none;
+}
